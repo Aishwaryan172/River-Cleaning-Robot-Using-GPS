@@ -43,7 +43,7 @@ The increasing pollution of water bodies threatens aquatic life and human health
 
 ## Block Diagram
 
-![Block Diagram](Block%20Diagram.png)
+![Block Diagram](https://github.com/Aishwaryan172/River-Cleaning-Robot-Using-GPS/blob/main/Block%20Diagram%20of%20the%20River%20Cleaning%20Robot.png)
 
 **Figure**: Block Diagram of the River Cleaning Robot
 
