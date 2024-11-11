@@ -62,7 +62,11 @@ The increasing pollution of water bodies threatens aquatic life and human health
 ## Architecture
 
 ![Architecture](https://github.com/Aishwaryan172/River-Cleaning-Robot-Using-GPS/blob/main/Architecture%20of%20the%20River%20Cleaning%20Robot.png)
-
+---
+**Figure**: Architecture of the River Cleaning Robot
+---
+![Pin Diagram]()
+---
 **Figure**: Pin Diagram of the River Cleaning Robot
 
 ### Key Pin Descriptions:
@@ -73,17 +77,3 @@ The increasing pollution of water bodies threatens aquatic life and human health
 - **GPS Module**: Communicates with Arduino via TX/RX pins.
 - **Motor Driver**: Controls motor movement (forward, backward, left, right).
 - **External Sensors**: For additional data like water quality and temperature.
-
----
-
-## Conclusion
-
-The **River Cleaning Robot Using GPS** is an innovative solution addressing water pollution. With autonomous navigation, eco-friendly design, and efficient debris collection, this project provides a sustainable approach to water body cleaning. It significantly contributes to global sustainability goals, making aquatic environments safer for all.
-
----
-
-## How to Use
-
-1. Clone the repository:
-   ```bash
-   git clone <repository_url>
