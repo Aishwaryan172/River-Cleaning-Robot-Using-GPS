@@ -61,7 +61,7 @@ The increasing pollution of water bodies threatens aquatic life and human health
 
 ## Architecture
 
-![Architecture](https://github.com/Aishwaryan172/Wi-Fi-Based-Electronic-Notice-Board/blob/main/Architecture.png?raw=true)
+![Architecture](https://github.com/Aishwaryan172/River-Cleaning-Robot-Using-GPS/blob/main/Architecture%20of%20the%20River%20Cleaning%20Robot.png)
 
 **Figure**: Pin Diagram of the River Cleaning Robot
 
