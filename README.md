@@ -31,6 +31,7 @@ The increasing pollution of water bodies threatens aquatic life and human health
 5. **Motor Driver(L293D)**: Controls the speed and direction of motors.
 6. **DC Motors**: Converts electrical energy into mechanical motion.
 7. **3800MAH [18650] Li-Ion Cell Reachargeble Battery**:to give power suppply
+8. **bluetooth model(HC-05)**:to communicate with mobile app through bluetooth
 
 ---
 
