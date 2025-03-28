@@ -30,6 +30,7 @@ The increasing pollution of water bodies threatens aquatic life and human health
 4. **Compass Module(HMC5883L)**: Measures magnetic field direction.
 5. **Motor Driver(L293D)**: Controls the speed and direction of motors.
 6. **DC Motors**: Converts electrical energy into mechanical motion.
+7. **3800MAH [18650] Li-Ion Cell Reachargeble Battery**:to give power suppply
 
 ---
 
@@ -37,7 +38,7 @@ The increasing pollution of water bodies threatens aquatic life and human health
 
 - **Operating System**: Windows (latest versions) or Linux.
 - **IDE**: Arduino IDE (versions 1.x or 2.x).
-- **serial blouetooth terminal app**
+- **serial blouetooth terminal app**:to run the robot
 
 **Arduino IDE** allows users to write, compile, and upload code to Arduino boards, supporting various platforms like Windows, macOS, and Linux.
 
