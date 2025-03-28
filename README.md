@@ -25,7 +25,7 @@ The increasing pollution of water bodies threatens aquatic life and human health
 ## Hardware Requirements
 
 1. **Arduino Uno(ATMEGA328PU)**: Microcontroller board based on ATmega328P.
-2. **APM(Ardupilot Mega) Module**:module typically includes both a gps receiver provides location, while the campass gives direction
+2. **APM 2.8 flight controller+NEO GPS M8N(Ardupilot Mega) Module**:module typically includes both a gps receiver provides location, while the campass gives direction
 3. **GPS Module(GT-U7)**: Provides accurate location and time information.
 4. **Compass Module(HMC5883L)**: Measures magnetic field direction.
 5. **Motor Driver(L293D)**: Controls the speed and direction of motors.
