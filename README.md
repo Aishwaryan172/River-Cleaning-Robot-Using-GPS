@@ -94,6 +94,8 @@ Bluetooth allows users to control or monitor the robot via a mobile app or PC.
 4. Power Supply → All Components
     VCC & GND from battery/power source are distributed to Arduino, APM, Bluetooth module, and motor driver.
     Working of the Circuit:
+5. also connect two dc motors to motor driver like one dc motor to motor driver out1, out2 and and second dc motor to motor driver out3, out4
+    after compliting the circuit connection we need to compile or domb the program to arduino uno by using software arduino ide
     The APM module (GPS) tracks the robot’s location and movement.
     The compass (magnetometer in APM) helps maintain direction.
     The Bluetooth module allows remote monitoring and control.
