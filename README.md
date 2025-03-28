@@ -72,11 +72,30 @@ The increasing pollution of water bodies threatens aquatic life and human health
 ---
 **Figure**: Pin Diagram of the River Cleaning Robot
 
-### Key Pin Descriptions:
-- **Arduino Uno Pins**:
-  - Analog Pins: For environmental monitoring sensors.
-  - Digital Pins: For motor control and LEDs.
-  - Power Pins: Supplies power to connected components.
-- **GPS Module**: Communicates with Arduino via TX/RX pins.
-- **Motor Driver**: Controls motor movement (forward, backward, left, right).
-- **External Sensors**: For additional data like water quality and temperature.
+Circuit Connections:
+1. APM Module (GPS & Compass) → Arduino Uno
+    VCC & GND → Power connections to the Arduino.
+    SCL & SDA → Connected to Arduino’s I2C pins (A5 & A4) for compass data.
+    TX & RX → Communicates GPS data with Arduino’s Serial Pins (TX-RX).
+
+2. Bluetooth Module → Arduino Uno
+    VCC & GND → Power supply from Arduino.
+    TX (Bluetooth) → RX (Arduino)
+    RX (Bluetooth) → TX (Arduino)
+
+Bluetooth allows users to control or monitor the robot via a mobile app or PC.
+
+3. Motor Driver → Arduino Uno
+    VCC & GND → Power connections from the power supply.
+    IN1, IN2, IN3, IN4 → Connected to Arduino’s digital pins (for motor direction control).
+    Motor Outputs → Connected to the DC motors of the robot.
+
+4. Power Supply → All Components
+    VCC & GND from battery/power source are distributed to Arduino, APM, Bluetooth module, and motor driver.
+    Working of the Circuit:
+    The APM module (GPS) tracks the robot’s location and movement.
+    The compass (magnetometer in APM) helps maintain direction.
+    The Bluetooth module allows remote monitoring and control.
+    The Arduino Uno processes all data and controls the motor driver.
+    The Motor driver moves the robot based on GPS navigation or user control.
+
