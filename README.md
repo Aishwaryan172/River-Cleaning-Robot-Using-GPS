@@ -25,10 +25,11 @@ The increasing pollution of water bodies threatens aquatic life and human health
 ## Hardware Requirements
 
 1. **Arduino Uno(ATMEGA328PU)**: Microcontroller board based on ATmega328P.
-2. **GPS Module(GT-U7)**: Provides accurate location and time information.
-3. **Compass Module(HMC5883L)**: Measures magnetic field direction.
-4. **Motor Driver(L293D)**: Controls the speed and direction of motors.
-5. **DC Motors**: Converts electrical energy into mechanical motion.
+2. **APM(Ardupilot Mega) Module**:module typically includes both a gps receiver provides location, while the campass gives direction
+3. **GPS Module(GT-U7)**: Provides accurate location and time information.
+4. **Compass Module(HMC5883L)**: Measures magnetic field direction.
+5. **Motor Driver(L293D)**: Controls the speed and direction of motors.
+6. **DC Motors**: Converts electrical energy into mechanical motion.
 
 ---
 
@@ -36,6 +37,7 @@ The increasing pollution of water bodies threatens aquatic life and human health
 
 - **Operating System**: Windows (latest versions) or Linux.
 - **IDE**: Arduino IDE (versions 1.x or 2.x).
+- **serial blouetooth terminal app**
 
 **Arduino IDE** allows users to write, compile, and upload code to Arduino boards, supporting various platforms like Windows, macOS, and Linux.
 
