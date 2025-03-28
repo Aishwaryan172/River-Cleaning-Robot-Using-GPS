@@ -98,4 +98,29 @@ Bluetooth allows users to control or monitor the robot via a mobile app or PC.
     The Bluetooth module allows remote monitoring and control.
     The Arduino Uno processes all data and controls the motor driver.
     The Motor driver moves the robot based on GPS navigation or user control.
+   
+   Steps to Connect HC-05 with the Serial Bluetooth Terminal App
+1. Pairing HC-05 with Your Mobile Phone
+    Power on the robot and ensure the HC-05 Bluetooth module is connected properly.
+    Turn on Bluetooth on your mobile device.
+    Open Bluetooth settings and search for available devices.
+    Select HC-05 (or HC-06 if you're using that).
+    Enter the default pairing PIN:
+    1234 or 0000 (if not changed).
+    Once paired, the HC-05 module’s LED should blink slower, indicating a successful connection.
+
+2. Using the Serial Bluetooth Terminal App
+    After pairing the Bluetooth module, follow these steps to control the robot:
+    Download and Install
+    Install the Serial Bluetooth Terminal app from the Google Play Store.
+    Connect to HC-05
+    Open the app and go to Devices → Select HC-05.
+    Tap Connect. If successful, you’ll see “Connected” in the app.
+    Send Commands to the Robot
+    The app allows you to send commands via the Serial Monitor.
+    The Arduino code will read these commands and control the motors accordingly.
+    
+
+
+
 
