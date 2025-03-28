@@ -26,7 +26,7 @@ The increasing pollution of water bodies threatens aquatic life and human health
 
 - **Arduino Uno (ATMEGA328P)** – Microcontroller board based on ATmega328P.  
 - **APM 2.8 Flight Controller + NEO GPS M8N (Ardupilot Mega) Module** – Includes a **GPS receiver** (for location tracking) and a **compass/magnetometer** (for orientation).  
-- **GPS Module (GT-U7)** – Provides accurate location and time information.  
+- **GPS Module (Ublox NEO-M8N)** – Provides accurate location and time information.  
 - **Compass Module (HMC5883L)** – Measures the Earth's magnetic field for direction sensing.  
 - **Motor Driver (L293D)** – Controls the speed and direction of motors.  
 - **DC Motors** – Converts electrical energy into mechanical motion for movement.  
